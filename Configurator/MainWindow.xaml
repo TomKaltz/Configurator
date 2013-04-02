@@ -12,7 +12,15 @@
             </MenuItem>
         </Menu>
         <Grid Margin="0,25,0,20">
-            
+            <TabControl HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+                <TabItem Header="TabItem">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="TabItem">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+
         </Grid>
         <StatusBar VerticalAlignment="Bottom" HorizontalContentAlignment="Stretch">
             <StatusBar.ItemsPanel>
